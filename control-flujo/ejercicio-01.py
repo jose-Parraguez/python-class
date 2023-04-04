@@ -5,31 +5,28 @@ operacion = ""
 
 while numero != "salir":
     operacion = input("Ingrese la operacion: ")
+    numero = int(numero)
 
     if operacion == "suma":
-        numero = int(numero)
         numero2 = int(input("Ingrese el segundo numero: "))
         numero = str(numero + numero2)
         print(f"El resultado es: {numero}")
 
     elif operacion == "resta":
-        numero = int(numero)
         numero2 = int(input("Ingrese el segundo numero: "))
         numero = str(numero - numero2)
         print(f"El resultado es: {numero}")
 
     elif operacion == "multi":
-        numero = int(numero)
         numero2 = int(input("Ingrese el segundo numero: "))
         numero = str(numero * numero2)
         print(f"El resultado es: {numero}")
 
     elif operacion == "div":
-        numero = int(numero)
         numero2 = int(input("Ingrese el segundo numero: "))
         numero = str(numero / numero2)
         print(f"El resultado es: {numero}")
 
-    elif operacion == "salir":
+    elif operacion.lower() == "salir":
         print("saliste")
         break
