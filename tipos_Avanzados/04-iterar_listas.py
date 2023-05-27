@@ -1,5 +1,14 @@
-numeros = list(range(20))
+numeros = ["pelo","perro","raton"]
 
+
+#imprimir la lista
 for x in numeros:
-    if x % 2 == 1 :
-        print(x)  
+    print(x)  
+
+#ponerle un indice a la lista
+for x in enumerate(numeros):
+    print(x)  
+
+#desempaquetar una lista
+for indice, x in enumerate(numeros):
+    print(indice,x)  
