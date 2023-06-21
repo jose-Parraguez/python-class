@@ -1,4 +1,4 @@
-# Las tuplas son como las listas pero la diferencia es que no se pueden modificar
+# Las tuplas son como las listas pero la diferencia es que no se pueden modificar (inmutables)
 
 numeros = (1,2,3) + (4,5,6)
 
