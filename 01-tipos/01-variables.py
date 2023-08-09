@@ -12,3 +12,4 @@ print(type(nombre1))
 print(type(Alumno))
 print(type(Puntaje))
 print(type(publicado))
+
