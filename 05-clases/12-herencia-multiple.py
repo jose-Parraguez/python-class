@@ -6,7 +6,7 @@ class Volador:
     def volar(self):
         print("volando")
     
-class Nadador():
+class Nadador:
     def nadar(self):
         print("Nadando")
 
