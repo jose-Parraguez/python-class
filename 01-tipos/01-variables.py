@@ -6,6 +6,7 @@ nombre1 = "ABC"
 Alumno = 500
 Puntaje = 9.9
 publicado = True
+a = 1
 
 print(type(nombre_curso))
 print(type(nombre1))
